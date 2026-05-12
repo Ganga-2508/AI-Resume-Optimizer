@@ -46,11 +46,3 @@ python app.py
 * Improve ATS matching logic
 * Add login and user history
 * Enhance frontend design
-
-## Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### ATS Result
-![ATS Result](screenshots/result.png)
