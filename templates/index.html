@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Resume Optimizer</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Resume Optimizer</h1>
+
+        <form
+            action="/analyze"
+            method="POST"
+            enctype="multipart/form-data"
+        >
+
+            <label>Upload Resume PDF:</label>
+
+            <br><br>
+
+            <input
+                type="file"
+                name="resume"
+            >
+
+            <br><br>
+
+            <label>Paste Job Description:</label>
+
+            <br><br>
+
+            <textarea
+                name="job_description"
+                rows="10"
+            ></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Analyze Resume
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
