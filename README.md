@@ -34,11 +34,15 @@ The user uploads a resume PDF and enters a job description. The application extr
 
 Install required libraries:
 
+```bash
 pip install flask PyPDF2
+```
 
 Run the application:
 
+```bash
 python app.py
+```
 
 ## Future Improvements
 
@@ -46,7 +50,8 @@ python app.py
 * Improve ATS matching logic
 * Add login and user history
 * Enhance frontend design
-                                                         ## Screenshots
+
+## Screenshots
 
 ### Home Page
 
