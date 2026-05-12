@@ -46,6 +46,7 @@ python app.py
 * Improve ATS matching logic
 * Add login and user history
 * Enhance frontend design
+
 ## Screenshots
 
 ### Home Page
